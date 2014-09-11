@@ -1,3 +1,4 @@
 rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 yum install -y wget csh mlocate vnstat fail2ban ImageMagick netcdf netcdf-devel netcdf-static hdf hdf-devel hdf5 hdf5-devel jasper jasper-libs jasper-devel libpng libpng-devel zlib zlib-devel openmpi openmpi-devel mpich2 mpich2-devel compat-libgfortran-41
 
+wget -c http://www2.mmm.ucar.edu/wrf/src/WRFV3.5.1.TAR.gz http://www2.mmm.ucar.edu/wrf/src/WPSV3.5.1.TAR.gz
