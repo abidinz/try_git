@@ -6,51 +6,52 @@ wget -c http://www2.mmm.ucar.edu/wrf/src/WRFV3.5.1.TAR.gz http://www2.mmm.ucar.e
 tar zxfv WRFV3.5.1.TAR.gz
 tar zxfv WPSV3.5.1.TAR.gz
 
-yum groupinstall -y Additional Development
-yum groupinstall -y Base
-yum groupinstall -y Compatibility libraries
-yum groupinstall -y Console internet tools
-yum groupinstall -y Debugging Tools
-yum groupinstall -y Desktop
-yum groupinstall -y Desktop Platform
-yum groupinstall -y Development tools
-yum groupinstall -y Dial-up Networking Support
-yum groupinstall -y Directory Client
-yum groupinstall -y E-mail server
-yum groupinstall -y FCoE Storage Client
-yum groupinstall -y FTP server
-yum groupinstall -y Fonts
-yum groupinstall -y General Purpose Desktop
-yum groupinstall -y Graphical Administration Tools
-yum groupinstall -y Hardware monitoring utilities
-yum groupinstall -y High Availability
-yum groupinstall -y High Availability Management
-yum groupinstall -y Internet Browser
-yum groupinstall -y Java Platform
-yum groupinstall -y Large Systems Performance
-yum groupinstall -y Legacy UNIX compatibility
-yum groupinstall -y Legacy X Window System compatibility
-yum groupinstall -y MySQL Database client
-yum groupinstall -y MySQL Database server
-yum groupinstall -y NFS file server
-yum groupinstall -y Network Infrastructure Server
-yum groupinstall -y Network file system client
-yum groupinstall -y Networking Tools
-yum groupinstall -y PHP Support
-yum groupinstall -y Performance Tools
-yum groupinstall -y Perl Support
-yum groupinstall -y PostgreSQL Database client
-yum groupinstall -y Remote Desktop Clients
-yum groupinstall -y SNMP Support
-yum groupinstall -y Scientific support
-yum groupinstall -y Security Tools
-yum groupinstall -y Server Platform
-yum groupinstall -y Server Platform Development
-yum groupinstall -y Storage Availability Tools
-yum groupinstall -y System Management
-yum groupinstall -y System administration tools
-yum groupinstall -y TurboGears application framework
-yum groupinstall -y Web Server
-yum groupinstall -y Web Servlet Engine
-yum groupinstall -y X Window System
-yum groupinstall -y iSCSI Storage Client
+yum groupinstall -y "Additional Development"
+yum groupinstall -y "Base"
+yum groupinstall -y "Compatibility libraries"
+yum groupinstall -y "Console internet tools"
+yum groupinstall -y "Debugging Tools"
+yum groupinstall -y "Desktop"
+yum groupinstall -y "Desktop Platform"
+yum groupinstall -y "Development tools"
+yum groupinstall -y "Dial-up Networking Support"
+yum groupinstall -y "Directory Client"
+yum groupinstall -y "E-mail server"
+yum groupinstall -y "FCoE Storage Client"
+yum groupinstall -y "FTP server"
+yum groupinstall -y "Fonts"
+yum groupinstall -y "General Purpose Desktop"
+yum groupinstall -y "Graphical Administration Tools"
+yum groupinstall -y "Hardware monitoring utilities"
+yum groupinstall -y "High Availability"
+yum groupinstall -y "High Availability Management"
+yum groupinstall -y "Internet Browser"
+yum groupinstall -y "Java Platform"
+yum groupinstall -y "Large Systems Performance"
+yum groupinstall -y "Legacy UNIX compatibility"
+yum groupinstall -y "Legacy X Window System compatibility"
+yum groupinstall -y "MySQL Database client"
+yum groupinstall -y "MySQL Database server"
+yum groupinstall -y "NFS file server"
+yum groupinstall -y "Network Infrastructure Server"
+yum groupinstall -y "Network file system client"
+yum groupinstall -y "Networking Tools"
+yum groupinstall -y "PHP Support"
+yum groupinstall -y "Performance Tools"
+yum groupinstall -y "Perl Support"
+yum groupinstall -y "PostgreSQL Database client"
+yum groupinstall -y "Remote Desktop Clients"
+yum groupinstall -y "SNMP Support"
+yum groupinstall -y "Scientific support"
+yum groupinstall -y "Security Tools"
+yum groupinstall -y "Server Platform"
+yum groupinstall -y "Server Platform Development"
+yum groupinstall -y "Storage Availability Tools"
+yum groupinstall -y "System Management"
+yum groupinstall -y "System administration tools"
+yum groupinstall -y "TurboGears application framework"
+yum groupinstall -y "Web Server"
+yum groupinstall -y "Web Servlet Engine"
+yum groupinstall -y "X Window System"
+yum groupinstall -y "iSCSI Storage Client"
+
